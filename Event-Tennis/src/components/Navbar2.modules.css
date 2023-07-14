@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 250px ;
+    background-color:rgba(255, 255, 255, 0.625);
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+.nav-item a:hover {
+    color: #1a8502;
+}
+.nav-img{
+    width: 80px;
+    margin-right:100px;
+    
+}
+.homeImg{
+    z-index: -1;
+    position: fixed;
+    filter: brightness(0.8) blur(2px);
+
+}

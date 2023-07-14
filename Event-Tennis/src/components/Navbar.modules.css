@@ -1,0 +1,19 @@
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+.nav-item a:hover {
+    color: #1a8502;
+}
+.nav-img{
+    z-index: -1;
+    position: fixed;
+    filter: brightness(0.8) blur(2px);
+}

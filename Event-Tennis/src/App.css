@@ -1,0 +1,27 @@
+:root {
+    --bg-color: #9f0000; /* Remplacez la valeur par la couleur de fond souhaitée */
+    --bar-size: 10px; /* Remplacez la valeur par la taille de la barre souhaitée */
+  }
+  
+.content {
+    margin-top: -100px; /* ajustez cette valeur selon votre besoin pour définir l'espace entre la Navbar et le contenu */
+  }
+  .titre{
+    margin-top: 50px;
+    color: #1a8502;
+    font-size: 80px;
+    --c:linear-gradient(#000 0 0); /* update the color here */
+  
+  padding-bottom: .15em;
+  background: var(--c), var(--c);
+  background-size: .3em .1em;
+  background-position:50% 100%;
+  background-repeat: no-repeat;
+  transition: .3s linear, background-size .3s .2s linear;
+  }
+  .titre:hover {
+    background-size: 40% .1em;
+    background-position: 10% 100%, 90% 100%;
+  }
+
+  
